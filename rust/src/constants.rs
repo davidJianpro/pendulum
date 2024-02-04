@@ -2,6 +2,7 @@ pub const EPOCH_YEAR: u32 = 1970;
 
 pub const DAYS_PER_N_YEAR: u32 = 365;
 pub const DAYS_PER_L_YEAR: u32 = 366;
+pub const DAYS_PER_L_MONTH: u32 = 30;
 
 pub const SECS_PER_MIN: u32 = 60;
 pub const SECS_PER_HOUR: u32 = SECS_PER_MIN * 60;
@@ -54,3 +55,4 @@ pub const DAY_OF_WEEK_TABLE: [u32; 12] = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4];
 
 pub const TM_JANUARY: usize = 0;
 pub const TM_DECEMBER: usize = 11;
+pub const TM_MARCH: usize = 20;
